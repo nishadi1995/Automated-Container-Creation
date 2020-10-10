@@ -2,7 +2,7 @@ import os
 import re
 import xml_parser
 
-
+#collocatability matrix
 def need_to_combine():
    val = raw_input("Do you need to combine these two services? : ") 
    if (val == "yes"):return 1 
